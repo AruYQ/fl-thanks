@@ -109,19 +109,6 @@ a {
   line-height: 1.75;
 }
 
-.message-canvas:focus {
-  border-color: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 24px 70px rgba(64, 75, 142, 0.17), inset 0 1px rgba(255, 255, 255, 0.95), 0 0 0 4px rgba(255, 255, 255, 0.16);
-}
-
-.placeholder {
-  margin: 0;
-  color: rgba(48, 53, 79, 0.45);
-  font-family: "DM Mono", monospace;
-  font-size: 0.78em;
-  letter-spacing: 0.04em;
-}
-
 @media (max-width: 600px) {
   .page-shell {
     width: calc(100% - 24px);
