@@ -109,6 +109,15 @@ a {
   line-height: 1.75;
 }
 
+.message-canvas p {
+  max-width: 780px;
+  margin: 0 0 1.35em;
+}
+
+.message-canvas p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 600px) {
   .page-shell {
     width: calc(100% - 24px);
